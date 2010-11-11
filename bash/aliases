@@ -13,6 +13,8 @@ alias gs="git status"
 alias ga="git add"
 alias gca="git commit -a"
 alias gc="git commit -v -a"
+alias gpush="git push"
+alias gpull="git pull"
 
 # ruby, rails
 alias r='rake'
