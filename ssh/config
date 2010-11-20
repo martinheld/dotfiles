@@ -1,3 +1,9 @@
 Host goat
   Hostname goat.imp.fu-berlin.de
   User held
+Host donkey
+  Hostname donkey.imp.fu-berlin.de
+  User held
+Host frog
+  Hostname frog.imp.fu-berlin.de
+  User held
