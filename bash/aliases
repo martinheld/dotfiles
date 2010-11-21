@@ -1,6 +1,13 @@
 # bash
 alias l='ls'
-alias ls='ls -G'
+
+if [[ "$(uname)" == "Darwin" ]]
+then
+  alias ls='ls -G'
+else
+  alias ls='ls --color'
+fi
+
 alias ll='ls -lha'
 alias dot="vim ~/Documents/dotfiles"
 alias reload="source ~/.zshrc"

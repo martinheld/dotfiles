@@ -1,10 +1,10 @@
 export GIT_EDITOR="vim"
 
-if [[ "$HOME" == "/home/cocktail/held/" ]];
+if [[ "$HOME" == "/home/cocktail/held" ]];
 then
-  source env_uni 
+  source ~/Documents/dotfiles/bash/env_uni 
 else
-  source env_local
+  source ~/Documents/dotfiles/bash/env_local
 fi
 
 HISTFILESIZE=1000000000 HISTSIZE=1000000
