@@ -1,11 +1,11 @@
 export GIT_EDITOR="vim"
 
-export PATH="/Users/held/bin:$PATH"
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-export PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:$PATH"
-
-export CLASSPATH="/Users/held/Library/Java/statlab.jar:$CLASSPATH"
+if [[ "$HOME" == "/home/cocktail/held/" ]];
+then
+  source env_uni 
+else
+  source env_local
+fi
 
 HISTFILESIZE=1000000000 HISTSIZE=1000000
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.

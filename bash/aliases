@@ -7,6 +7,8 @@ alias reload="source ~/.zshrc"
 alias ..="cd .."
 alias .-="cd -"
 
+# ssh stuff
+alias ssh="ssh -X"
 
 # git
 alias gs="git status"
@@ -24,3 +26,23 @@ function take {
   mkdir $1
   cd $1
 }
+
+#quick dir change
+alias cdsnow="cd ~/Work/Snow"
+
+# Uni specfic aliases
+if [[ "$HOME" == "/home/cocktail/held" ]];
+then
+  # program shortcuts
+  alias win="rdesktop -a 24 -u $USER -f -k de"
+  alias vmd="/home/cocktail/held/RAID/vmd/vmd-1.8.6/bin/vmd"
+  alias java="/import/java6/bin/java"
+  alias javac="/import/java6/bin/javac"
+  # quick dir change
+  alias cddphd="cd /data/cocktail/users/held/PhD"
+  alias cdsnow="cd ~/PhD/SnowCrystals"
+  # reload config
+  alias reload="source ~/.bashrc"
+fi
+
+

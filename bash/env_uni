@@ -1,0 +1,33 @@
+export PATH=$PATH:/home/cocktail/held/RAID/gromacs/bin
+export PATH=$PATH:/home/cocktail/held/MASTER_THESIS/scripts
+export PATH=$PATH:/home/cocktail/held/PhD/src/shell
+export PATH=$PATH:/home/cocktail/held/PhD/src/shell/tpt
+export PATH=$PATH:/home/cocktail/held/PhD/src/gromacs/
+export PATH=$PATH:/home/cocktail/held/progs/pdb2pqr-1.4.0
+export PATH=$PATH:/home/cocktail/held/progs/Emma/bin:
+
+export AMBERHOME=/daten/cocktail/users/meerbach/amber8
+
+export CLASSPATH=.:/home/cocktail/held/workspace/MolGlue/bin
+export CLASSPATH=$CLASSPATH:/home/cocktail/conrad/work/phd/libs/commons-net/commons-net.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/conrad/work/phd/PROTEOMICS_WORKER/PROTEOMICSWORKER_BASE/classes/
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/msbase.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/mssqlserver.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/msutil.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/ganymed-ssh2-build209.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/log4j-1.2.13.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/sqljdbc.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/colt.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/conrad/work/phd/libs/ftp
+export CLASSPATH=$CLASSPATH:/home/cocktail/noe/java/libraries/metamacs.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/noe/java/libraries/mantissa/mantissa-5.8.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/commons-io-1.3.1/commons-io-1.3.1.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/Jmol.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/NetBeansProjects/MolTools/MolTools/netbeans_project/dist/MolTools.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/NetBeansProjects/TPT/dist/TPT.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/NetBeansProjects/Analysis/dist/Analysis.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/held/libs/netcdfAll-4.0.jar
+export CLASSPATH=$CLASSPATH:/home/cocktail/noe/public/statlab/statlab.jar:
+
+export JAVA_OPTS=-Djava.library.path=/home/cocktail/held/libs/;
+
