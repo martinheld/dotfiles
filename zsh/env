@@ -1,1 +1,1 @@
-source ~/Documents/dotfiles/bash/env
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
